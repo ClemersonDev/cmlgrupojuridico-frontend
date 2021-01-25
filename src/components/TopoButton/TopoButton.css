@@ -1,0 +1,21 @@
+html {
+	scroll-behavior: smooth;
+}
+#btnTop{
+	cursor: pointer;
+	width: 50px;
+	position:fixed;
+	bottom: 30px;
+	right:20px;
+	height: 50px;
+	display: none;
+	z-index: 1000;
+	background-color: white;
+	color: #E5B761;
+	border-radius: 4px;
+	transition: color 1s, background-color 1s;
+}
+
+#btnTop:hover {
+	background-color: black;
+}

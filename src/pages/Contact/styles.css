@@ -1,0 +1,137 @@
+#contact-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+#contact-container h1 {
+    font: 3.7em 'Times New Roman';
+    text-align: center;
+}
+
+#contact-box {
+    display: flex;
+    padding: 0% 5%;
+    margin: 3% 0%;
+}
+
+#left-contact {
+    width: 50%;
+    height: 100%;
+    margin-bottom: 5%;
+    padding: 0% 5% 0% 5%;
+}
+
+#left-contact form input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 2px solid #dcdce6;
+    padding: 0 20px;
+    margin-bottom: 2%;
+}
+
+#left-contact form textarea {
+    width: 100%;
+    height: 180px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 2px solid #dcdce6;
+    padding: 5px 20px;
+    resize: none;
+    
+}
+
+#left-contact form button {
+    width: 100%;
+    height: 38px;
+    background-color: #E5B761;
+    color: #161616;
+    border: 2px solid #E5B761;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 1.9%;
+    transition: background-color 1s, color 1s;
+}
+
+#left-contact form button:hover {
+    background-color: #f7f8f9;
+}
+
+#left-contact p {
+    font: 2em Roboto, Sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#right-contact {
+    width: 50%;
+    height: 100%;
+    border: 2px solid #E5B761;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 3% 2% 2.6% 2%;
+    margin: 0% 0% 0% 0%;
+}
+
+#right-contact p {
+    font: 1.2em Roboto, sans-serif;
+}
+
+#right-contact a {
+    font: 1.2em Roboto, sans-serif;
+    color: #161616;
+}
+
+#right-contact svg {
+    width: 5%;
+    height: 5%;
+}
+
+#socials-iconsBox {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#socials-iconsBox svg {
+    width: 8%;
+    height: 8%;
+    margin-right: 2%;
+}
+
+#socials-iconsBox a {
+    color: #E5B761; 
+    width: 10%;
+    height: 10%;
+    text-align: center;
+}
+
+#contacts {
+    width: 100%;
+    height: 100%;
+}
+
+#contacts svg {
+    margin-right: 2%;
+}
+
+@media(max-width: 900px) {
+    #contact-box {
+        display: grid;
+    }
+
+    #left-contact {
+        width: 100%;
+        margin-bottom: 5%;
+        padding: 0% 5% 0% 5%;
+    }
+
+    #right-contact {
+        width: 100%;
+        padding: 3% 2% 2.6% 2%;
+        margin: 0% 0% 0% 0%;
+    }
+}

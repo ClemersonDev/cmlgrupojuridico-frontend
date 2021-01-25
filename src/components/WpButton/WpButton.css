@@ -1,0 +1,25 @@
+#whats {
+    position:fixed;
+    width:65px;
+    height:65px;
+    bottom:30px;
+    left: 40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:45px;
+    box-shadow: 1px 1px 2px #888;
+    padding-right: 0%;
+    z-index:1000;
+    transition: background-color 1s, color 1s;
+}
+
+#whats svg {
+    margin-top: 13%;
+}
+
+#whats:hover {
+    background-color: white;
+    color: #25d366;
+}

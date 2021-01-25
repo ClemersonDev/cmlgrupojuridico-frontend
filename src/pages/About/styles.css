@@ -1,0 +1,132 @@
+#about-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+#about-container h1 {
+    font: 3.7em 'Times New Roman';
+    text-align: center;
+}
+
+
+#escritorio-firstBox {
+    margin: 0% 7% 3% 7%;
+    padding: 0% 5% 3% 5%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 2px solid #E5B761;
+    border-top: none;
+}
+
+#escritorio-firstBox img {
+    width: 50%;
+    margin: 3% 0% 4% 25%;
+}
+
+#escritorio-firstBox p {
+    font: 1.2em Roboto, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 50px;
+    line-height: 25px;
+    margin-bottom: 2%;
+}
+
+#escritorio-firstBox h3 {
+    font: 2.5em 'Times new Roman';
+    margin-left: 4.8%;
+}
+
+
+
+.pillars {
+    cursor: pointer;
+    width: 75%;
+    font: 1.2em Roboto, sans-serif;
+    border: 2px solid #161616;
+    border-bottom-right-radius: 8px;
+    background-color: #161616;
+    color: #E5B761;
+    margin: 0% 0% 2% 0%;
+    padding: 2% 2% 2% 2%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 30px;
+    display: flex;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.pillars:hover {
+    background-color: #f7f8f9;
+    border: 2px solid #E5B761;
+    color: #161616;
+}
+
+#mission-svg {
+    margin: 2% 3% 0% 0%;
+}
+
+#visao {
+    position: relative;
+    left: 30%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    padding: 2% 7% 2% 0%;
+
+}
+
+#vision-svg {
+    margin: 2% 3% 0% 0%;
+}
+
+#worth-svg {
+    margin: 4% 4% 0% 0%;
+}
+
+#call-box {
+    text-align: center;
+    border: 2px solid #E5B761;
+    border-radius: 8px;
+    margin: 5% 5% 3% 5%;
+    padding: 1% 0% 2% 0%;
+    
+}
+
+#call-box p {
+    font: 1.7em Roboto, sans-serif;
+    margin-bottom: 1.5%;
+}
+
+#call-box a {
+    padding: 0.5% 5%;
+    height: 38px;
+    background-color: #E5B761;
+    color: #161616;
+    border: 2px solid #E5B761;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: background-color 0.8s, color 0.8s, border 0.8s;
+}
+
+#call-box a:hover {
+    background-color: #161616;
+    color: #E5B761;
+    border: 2px solid #161616;
+}
+
+@media(max-width: 600px) {
+    .pillars {
+        display: grid;
+        text-align: center;
+    }
+
+    #call-box {
+        padding: 5% 2% 5% 2%;
+        margin: 5% 5% 5% 5%;
+    }
+    
+    #call-box p {
+        margin-bottom: 5%;
+    }
+}

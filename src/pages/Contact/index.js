@@ -83,7 +83,7 @@ export default function Contact() {
                     <p>Fale conosco - atendimento online</p>
                     <form onSubmit={handleEmail} method="post">
                         <input type="text" placeholder="Nome" value={name} onChange={e => setName(e.target.value)} /> <br/>
-                        <input placeholder="Whatsapp" maxLength={11} onKeyPress={onlynumber} value={whats} onChange={e => setWhats(e.target.value)} /> <br/>
+                        <input type="text" placeholder="Whatsapp" maxLength={11} onKeyPress={onlynumber} value={whats} onChange={e => setWhats(e.target.value)} /> <br/>
                         <input type="text" placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)} /> <br/>
                         <textarea type="texte" name="mensagem" id="" placeholder="Sua mensagem" value={msgm} onChange={e => setMsgm(e.target.value)} ></textarea> <br/>
                         <button type="submit">Enviar</button>

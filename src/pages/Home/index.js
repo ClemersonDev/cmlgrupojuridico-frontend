@@ -34,6 +34,8 @@ export default function Home() {
             msgm,
         };
 
+        JSON.stringify(data);
+
         try {
             const response = await api.post('emails', data);
             toast.success("Mensagem enviada! Retornaremos o mais breve possível.", {
@@ -57,6 +59,7 @@ export default function Home() {
                 draggable: false,
                 progress: undefined,
             });
+            console.log(err);
         }
 
         try {

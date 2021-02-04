@@ -18,7 +18,7 @@ export default function Footer() {
                 <div id="socials-icons">
                     <a href="//"> <FaFacebook size={28} /> </a>
                     <a href="https://www.instagram.com/cmlgrupojuridico/" target="_blanc"> <FaInstagram size={28} /> </a>
-                    <a href="www.linkedin.com/in/grupo-jurídico-castro-moura-e-lima-644203206" target="_blanc"> <FaLinkedin size={28} /> </a>
+                    <a href="https://www.linkedin.com/in/grupo-jurídico-castro-moura-e-lima-644203206" target="_blanc"> <FaLinkedin size={28} /> </a>
                 </div>
                 <p> <FaPhone /> (87) 99618-3427 </p>
                 <p> <FaMailBulk /> CMLGRUPOJURIDICO@GMAIL.COM</p>

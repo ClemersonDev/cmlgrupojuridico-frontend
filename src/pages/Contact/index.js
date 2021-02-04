@@ -105,7 +105,7 @@ export default function Contact() {
                     <div id="socials-iconsBox">
                         <a href="//"> < FaFacebook/> </a>
                         <a href="https://www.instagram.com/cmlgrupojuridico/" target="_blanc"> < FaInstagram/> </a>
-                        <a href="www.linkedin.com/in/grupo-jurídico-castro-moura-e-lima-644203206" target="_blanc"> < FaLinkedin/> </a>
+                        <a href="https://www.linkedin.com/in/grupo-jurídico-castro-moura-e-lima-644203206" target="_blanc"> < FaLinkedin/> </a>
                     </div>
                     <div id="contacts">
                         <p><FaMapMarkerAlt style={{ color: '#CC0000' }} /> RUA MANOEL DA PAIXÃO, 200, EMPRESARIAL BEZERRA, 1º ANDAR, SALA 06 – ALAGADIÇO, JUAZEIRO- BA, CEP 48903-580</p> <br/>

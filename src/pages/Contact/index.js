@@ -57,7 +57,7 @@ export default function Contact() {
         }
 
         try {
-            const response =  await api.post('clients', data);
+            const response =  await api.post('users', data);
         } catch(err) {
             console.log(err);
         }

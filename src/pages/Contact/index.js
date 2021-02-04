@@ -9,13 +9,13 @@ export default function Contact() {
     
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [whats, setWhats] = useState('');
+    const [whatsapp, setWhatsapp] = useState('');
     const [msgm, setMsgm] = useState('');
 
     function clearInput() {
         setName('');
         setEmail('');
-        setWhats('');
+        setWhatsapp('');
         setMsgm('');
     }
 
@@ -25,7 +25,7 @@ export default function Contact() {
         const data = {
             name,
             email,
-            whats,
+            whatsapp,
             msgm,
         };
 
@@ -83,7 +83,7 @@ export default function Contact() {
                     <p>Fale conosco - atendimento online</p>
                     <form onSubmit={handleEmail} method="post">
                         <input type="text" placeholder="Nome" value={name} onChange={e => setName(e.target.value)} /> <br/>
-                        <input type="text" placeholder="Whatsapp" maxLength={11} onKeyPress={onlynumber} value={whats} onChange={e => setWhats(e.target.value)} /> <br/>
+                        <input type="text" placeholder="Whatsapp" maxLength={11} onKeyPress={onlynumber} value={whatsapp} onChange={e => setWhatsapp(e.target.value)} /> <br/>
                         <input type="text" placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)} /> <br/>
                         <textarea type="texte" name="mensagem" id="" placeholder="Sua mensagem" value={msgm} onChange={e => setMsgm(e.target.value)} ></textarea> <br/>
                         <button type="submit">Enviar</button>

@@ -11,7 +11,7 @@ export default function Header() {
             </div>
             <div id="midle-header">
                 <h2><FaMapMarkerAlt style={{ color: '#CC0000' }}/> Juazeiro - Ba</h2>
-                <a href="//"><FaWhatsapp style={{ color: '#25d366' }}/> (87) 99618-3427</a>
+                <a href="https://api.whatsapp.com/send?phone=5587998231388" target="blank"><FaWhatsapp style={{ color: '#25d366' }}/> (87) 99618-3427</a>
             </div>
             <div id="header-right">
                 <ul>
